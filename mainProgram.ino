@@ -39,10 +39,10 @@ SDA = D2
 #define batas_atas 120 // Batas ketinggian air untuk mematikan pompa (cm)
 #define waktu_cek 30 // Lama waktu cek keadaan pompa
 
-#define ACCESSKEY "058f2dff81fc07c6:bfa9004d3678320f" // Kunci Akses pada platform Antares
-#define WIFISSID "Internet@wifi.id" // Nama WiFi
-#define PASSWORD "asdfghjkl" // Kata sandi WiFi
-String projectName = "coba_antares1"; // Nama proyek pada Antares
+#define ACCESSKEY "xxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxx" // Kunci Akses pada platform Antares
+#define WIFISSID "myWiFi" // Nama WiFi
+#define PASSWORD "myPassword" // Kata sandi WiFi
+String projectName = "project1"; // Nama proyek pada Antares
 String deviceName = "ESP8266_1"; // Nama device pada Antares
 
 #include <Adafruit_SSD1306.h>
